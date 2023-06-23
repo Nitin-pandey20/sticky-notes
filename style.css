@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Comfortaa&family=Fredoka:wght@500&display=swap');
+  *{
+    padding: 0 ;
+    margin:0;
+}
+body{
+    background-color: #c68c53a8 ;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;;
+}
+.main-container{
+    width:95%;
+    margin:auto;
+}
+.container1{
+    margin-left: 5%;;
+}
+.container2{
+    display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+margin-top: 20px;
+margin-left:5%;
+}
+.container3{
+    position: absolute;
+    top:26%;
+    left:40%;
+}
+textarea{
+box-shadow: 10px 15px 25px 0px rgba(0,0,0,0.75);
+outline: none;
+border:none;
+width:175px;
+height:175px;
+padding:40px 25px 25px 25px;
+}
+#check-icon{
+    position:absolute;
+    right:17%;
+    top:4%;
+}
+#cross-icon{
+    position: absolute;
+    right:5%;
+    top:4%;
+}
+#button{
+    background-color: green;
+    color:white;
+    font-size: 60%;
+    padding :5px;
+    margin-top: 0;
+}
+
+
